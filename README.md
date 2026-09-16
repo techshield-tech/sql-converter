@@ -7,6 +7,7 @@ sent over the network; everything runs in your browser.
 **Live:** https://techshield-tech.github.io/sql-converter/
 
 Part of [MMOALL Developer Tools](https://mmoall.com/tools).
+Also available at [mmoall.com/tools/sql-converter](https://mmoall.com/tools/sql-converter).
 
 ## Features
 
