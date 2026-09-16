@@ -2,8 +2,8 @@
 // statements. Tool-specific.
 
 import { useCallback, useEffect, useState } from 'react';
-import { Button, CopyButton, ErrorBox, Panel, Select, TextArea, Toolbar } from '../shell/ui';
-import type { SelectOption } from '../shell/ui';
+import { Button, CopyButton, ErrorBox, Panel, Select, TextArea, Toolbar } from '@mmoall/tool-kit';
+import type { SelectOption } from '@mmoall/tool-kit';
 import { DATA_SQL_DIALECTS, getDataSqlDialect } from './data-sql-dialects';
 import { detectDataFormat, type DataSourceFormat } from './data-parse';
 import { generateSqlFromData } from './data-to-sql';

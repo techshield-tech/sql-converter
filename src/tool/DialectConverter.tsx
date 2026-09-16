@@ -2,7 +2,7 @@
 // dialect (node-sql-parser, lazy-loaded). Tool-specific.
 
 import { useCallback, useEffect, useState } from 'react';
-import { Button, CopyButton, ErrorBox, Panel, Select, TextArea, Toolbar } from '../shell/ui';
+import { Button, CopyButton, ErrorBox, Panel, Select, TextArea, Toolbar } from '@mmoall/tool-kit';
 import { CONVERTER_DIALECTS } from './dialects';
 import { convertSqlDialect } from './sql-dialect-convert';
 import { SAMPLE_SQL } from './sample';
